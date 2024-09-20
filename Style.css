@@ -5,7 +5,31 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .logo {
     width: 100px;
     margin-right: 20px;
+}
+
+.univ_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    text-align: center;
 }
