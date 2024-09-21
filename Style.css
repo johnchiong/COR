@@ -44,50 +44,30 @@ header {
     color: red;
 }
 
-.student_info {
+.full_table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     border: 2px solid black;
 }
 
-.student_info th {
-    background-color: #cfe2f3;
-    text-align: center;
-    padding: 10px;
+.full_table th {
     border: 2px solid black;
+    padding: 8px;
+    background-color: #cfe2f3;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.student_info td {
+.full_table td {
     padding: 8px;
+    text-align: center;
     border: none;
 }
 
-.student_info td strong {
-    font-weight: bold;
-}
-
 .table_title {
-    font-size: 16px;
+    background-color: #cfe2f3;
     text-transform: uppercase;
     padding: 8px;
-    border: 2px solid black;
-}
-
-.subject_table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    border: 2px solid black;
-}
-
-.subject_table td {
-    border: 1px solid #000;
-    padding: 8px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.subject_table th {
-    background-color: #cfe2f3;
+    font-size: 16px;
 }
