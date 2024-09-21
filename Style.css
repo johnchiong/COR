@@ -33,3 +33,13 @@ header {
 .header-text {
     text-align: center;
 }
+
+.registration_number {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.red {
+    color: red;
+}
