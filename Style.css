@@ -48,8 +48,28 @@ header {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    border: 2px solid black;
 }
 
 .student_info th {
-    background-color: #8288e3;
+    background-color: #cfe2f3;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.student_info td {
+    padding: 8px;
+    border: none;
+}
+
+.student_info td strong {
+    font-weight: bold;
+}
+
+.table-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 8px;
+    border: 2px solid black;
 }
