@@ -43,3 +43,13 @@ header {
 .red {
     color: red;
 }
+
+.student_info {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.student_info th {
+    background-color: #8288e3;
+}
