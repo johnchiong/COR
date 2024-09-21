@@ -67,9 +67,27 @@ header {
     font-weight: bold;
 }
 
-.table-title {
+.table_title {
     font-size: 16px;
     text-transform: uppercase;
     padding: 8px;
     border: 2px solid black;
+}
+
+.subject_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.subject_table td {
+    border: 1px solid #000;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.subject_table th {
+    background-color: #cfe2f3;
 }
