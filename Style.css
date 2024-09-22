@@ -58,7 +58,6 @@ header {
 }
 
 .full_table th {
-    border: 2px solid black;
     padding: 8px;
     background-color: #cfe2f3;
     text-transform: uppercase;
@@ -79,7 +78,7 @@ header {
 }
 
 .fees_table {
-    width: 500px;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
     border: 2px solid black;
@@ -108,4 +107,32 @@ header {
 .border_payment td {
     padding: 5px;
     border: 2px solid black;
+}
+
+.refund_table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: transparent;
+    border: none;
+    margin-left: 0;
+}
+
+.refund_table th, .refund_table td {
+    padding: 20px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+
+.refund_table th {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fees_and_refund {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
 }
