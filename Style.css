@@ -136,3 +136,13 @@ header {
     align-items: flex-start;
 
 }
+
+.approval-section {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.approval-section p {
+    font-size: 14px;
+    margin: 0;
+}
