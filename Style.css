@@ -92,3 +92,20 @@ header {
     text-transform: uppercase;
     text-align: center;
 }
+
+.border {
+    border: 2px solid black;
+}
+
+.border td {
+    padding: 5px;
+}
+
+.border_payment {
+    border: 2px solid black;
+}
+
+.border_payment td {
+    padding: 5px;
+    border: 2px solid black;
+}
